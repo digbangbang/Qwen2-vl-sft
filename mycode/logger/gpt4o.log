@@ -1,0 +1,233 @@
+2024-09-18 15:48:48,030 - __main__ - INFO - total datasets 20
+2024-09-18 15:48:48,032 - __main__ - INFO - Now test lixi_test_1229_183191
+2024-09-18 15:48:48,201 - __main__ - INFO - anno tree {'图像风格化标注-帽子有无': {'不合格': '有以下情况之一的图片都不合格：有以下情况之一的图片都不合格：斗鸡眼，胡子不协调，额头有褶皱包括轻微的皱纹，眉毛多于两条，脸上或头上或嘴上不干净或有异物，眉毛不是黑色，头发不是黑色，帽子大小或位置不合适，头发形状像前进帽，皮肤颜色不是黄色，眼皮上有黑色的线，牙齿缺损', '合格_戴帽子': '没有不合格的任何一种情况，且人物戴了帽子', '合格_不戴帽子': '没有不合格的任何一种情况，且人物没有戴帽子'}, 'task_comment': '给定图是AI生成的人像图，判断生成的图是否合格'}
+2024-09-18 15:53:40,381 - __main__ - INFO - total 100, right 94, acc 94.0
+2024-09-18 15:53:40,393 - __main__ - INFO - 合格_戴帽子 acc 1.0 total 29
+2024-09-18 15:53:40,394 - __main__ - INFO - 合格_不戴帽子 acc 0.9848484848484849 total 66
+2024-09-18 15:53:40,394 - __main__ - INFO - 不合格 was not predicted, total 5
+2024-09-18 15:53:40,394 - __main__ - INFO - 
+
+2024-09-18 15:53:40,395 - __main__ - INFO - Now test face_disney_pixal_boys_183111
+2024-09-18 15:53:40,704 - __main__ - INFO - anno tree {'端人像生成图像审核': {'不合格': '有以下情况之一的图片都不合格：斗鸡眼，胡子不协调，额头有褶皱包括轻微的皱纹，眉毛多于两条，脸上或头上或嘴上不干净或有异物，眉毛不是黑色，头发不是黑色，帽子大小或位置不合适，头发形状像前进帽，皮肤颜色不是黄色，眼皮上有黑色的线，牙齿缺损', '合格': '没有不合格的任何一种情况'}, 'task_comment': '给定图是AI生成的人像图，判断生成的图是否合格'}
+2024-09-18 15:54:37,056 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 15:54:40,435 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 15:54:43,658 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 16:00:45,544 - __main__ - INFO - total datasets 20
+2024-09-18 16:00:45,545 - __main__ - INFO - Now test face_disney_pixal_boys_183111
+2024-09-18 16:00:45,815 - __main__ - INFO - anno tree {'端人像生成图像审核': {'不合格': '有以下情况之一的图片都不合格：斗鸡眼，胡子不协调，额头有褶皱包括轻微的皱纹，眉毛多于两条，脸上或头上或嘴上不干净或有异物，眉毛不是黑色，头发不是黑色，帽子大小或位置不合适，头发形状像前进帽，皮肤颜色不是黄色，眼皮上有黑色的线，牙齿缺损', '合格': '没有不合格的任何一种情况'}, 'task_comment': '给定图是AI生成的人像图，判断生成的图是否合格'}
+2024-09-18 16:02:08,705 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 16:02:11,859 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 16:02:14,743 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 16:05:31,161 - __main__ - INFO - total 100, right 60, acc 60.0
+2024-09-18 16:05:31,175 - __main__ - INFO - 合格 acc 0.3953488372093023 total 43
+2024-09-18 16:05:31,176 - __main__ - INFO - 不合格 acc 0.7543859649122807 total 57
+2024-09-18 16:05:31,176 - __main__ - INFO - 
+
+2024-09-18 16:05:31,177 - __main__ - INFO - Now test secure_sexyxjj_fp_1222_182501
+2024-09-18 16:05:31,364 - __main__ - INFO - anno tree {'不是性感小姐姐筛选': {'明显不是性感小姐姐': '有以下情况之一：图中包含两个人或以上，图中没有人，图中是皮肤特写，图中是男性，图中是小孩，', '其他': '图中有性感小姐姐'}, 'task_comment': ''}
+2024-09-18 16:05:35,850 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 16:05:39,397 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 16:05:42,857 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 16:10:25,085 - __main__ - INFO - total 100, right 51, acc 51.0
+2024-09-18 16:10:25,096 - __main__ - INFO - 其他 acc 0.34782608695652173 total 69
+2024-09-18 16:10:25,097 - __main__ - INFO - 明显不是性感小姐姐 acc 0.8709677419354839 total 31
+2024-09-18 16:10:25,097 - __main__ - INFO - 
+
+2024-09-18 16:10:25,098 - __main__ - INFO - Now test secure_sexyxjj_fn_1222_182443
+2024-09-18 16:10:25,233 - __main__ - INFO - anno tree {'性感小姐姐筛选': {'性感小姐姐': '', '其他': '图中没有性感小姐姐'}, 'task_comment': ''}
+2024-09-18 16:13:28,637 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 16:13:32,079 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 16:13:35,432 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 16:16:10,545 - __main__ - INFO - total 100, right 80, acc 80.0
+2024-09-18 16:16:10,548 - __main__ - INFO - 其他 acc 0.9629629629629629 total 81
+2024-09-18 16:16:10,549 - __main__ - INFO - 性感小姐姐 acc 0.10526315789473684 total 19
+2024-09-18 16:16:10,549 - __main__ - INFO - 
+
+2024-09-18 16:16:10,550 - __main__ - INFO - Now test secure_white_pic_230711_2000_181421
+2024-09-18 16:16:10,603 - __main__ - INFO - anno tree {'人像分类': {'真人人像': '图中有人，且全都是真实人像', '卡通人像': '图中有人，但是包括卡通人物', '无人像': '图中没有人'}, 'task_comment': ''}
+2024-09-18 16:18:51,861 - __main__ - INFO - total 48, right 34, acc 70.83
+2024-09-18 16:18:51,871 - __main__ - INFO - 卡通人像 acc 1.0 total 26
+2024-09-18 16:18:51,872 - __main__ - INFO - 无人像 acc 0.14285714285714285 total 14
+2024-09-18 16:18:51,872 - __main__ - INFO - 真人人像 acc 0.75 total 8
+2024-09-18 16:18:51,872 - __main__ - INFO - 
+
+2024-09-18 16:18:51,873 - __main__ - INFO - Now test secure_white_pic_230711_2000_181422
+2024-09-18 16:18:52,082 - __main__ - INFO - anno tree {'人像分类': {'真人人像': '图中包含真人人像', '卡通人像': '图中包含卡通人像', '无人像': '图中没有人像'}, 'task_comment': ''}
+2024-09-18 16:23:40,302 - __main__ - INFO - total 100, right 98, acc 98.0
+2024-09-18 16:23:40,313 - __main__ - INFO - 真人人像 acc 1.0 total 98
+2024-09-18 16:23:40,313 - __main__ - INFO - 无人像 was not predicted, total 2
+2024-09-18 16:23:40,313 - __main__ - INFO - 
+
+2024-09-18 16:23:40,314 - __main__ - INFO - Now test ocr_sec_txiang_contact_231218_181486
+2024-09-18 16:23:40,725 - __main__ - INFO - anno tree {'联系方式': {'有联系倾向，有高危联系方式': '图中有招嫖性质的联系方式，如有如下情况之一的：有粉色或红色数字、有性感美女或帅哥且有一串数字或者字母、有“约”文字且有一串数字或字母、有企鹅logo且有一串数字或字母、有v或V字母或wx或其他读作wei的文字且有一串数字或者字母', '有联系倾向，有低危联系方式': '有如下情况之一：非招嫖性质的广告或者招牌、聊天记录中的微信、qq、手机号、网址、水印等', '无联系倾向': '无明显联系方式', '有联系倾向，无联系方式': '有如下情况之一：图中有类似“约”文字、微信logo、q或者Q字母、V或者v或者wx字母、“电话”“联系方式”文字，但是没有具体的电话号码（一串数字）或者QQ号码（一串数字）或者微信号（一串数字或者字母或者数字字母混合体）或者邮箱'}, 'task_comment': ''}
+2024-09-18 16:34:53,538 - __main__ - INFO - total 100, right 0, acc 0.0
+2024-09-18 16:34:53,549 - __main__ - INFO - 无联系倾向 was not predicted, total 92
+2024-09-18 16:34:53,550 - __main__ - INFO - 有联系倾向，有高危联系方式 was not predicted, total 5
+2024-09-18 16:34:53,550 - __main__ - INFO - 有联系倾向，有低危联系方式 was not predicted, total 3
+2024-09-18 16:34:53,551 - __main__ - INFO - 
+
+2024-09-18 16:34:53,551 - __main__ - INFO - Now test secure_normal_trainset_180944
+2024-09-18 16:34:54,015 - __main__ - INFO - anno tree {'人像分类': {'真人人像': '图中包含真人人像', '卡通人像': '图中包含卡通人像', '无人像': '图中没有人像'}, 'task_comment': ''}
+2024-09-18 16:39:07,914 - __main__ - INFO - total 100, right 89, acc 89.0
+2024-09-18 16:39:07,917 - __main__ - INFO - 无人像 acc 0.8545454545454545 total 55
+2024-09-18 16:39:07,917 - __main__ - INFO - 真人人像 acc 0.9545454545454546 total 44
+2024-09-18 16:39:07,918 - __main__ - INFO - 卡通人像 was not predicted, total 1
+2024-09-18 16:39:07,918 - __main__ - INFO - 
+
+2024-09-18 16:39:07,919 - __main__ - INFO - Now test secure_normal_validset_180821
+2024-09-18 16:39:08,523 - __main__ - INFO - anno tree {'人像分类': {'真人人像': '图中包含真人人像', '卡通人像': '图中包含卡通人像', '无人像': '图中没有人像'}, 'task_comment': ''}
+2024-09-18 16:41:14,186 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 16:41:17,113 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 16:41:20,473 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 16:43:10,770 - __main__ - INFO - total 100, right 89, acc 89.0
+2024-09-18 16:43:10,773 - __main__ - INFO - 真人人像 acc 0.9787234042553191 total 47
+2024-09-18 16:43:10,773 - __main__ - INFO - 无人像 acc 0.8125 total 48
+2024-09-18 16:43:10,774 - __main__ - INFO - 卡通人像 acc 0.8 total 5
+2024-09-18 16:43:10,774 - __main__ - INFO - 
+
+2024-09-18 16:43:10,775 - __main__ - INFO - Now test face_huhang_helmet_tie_train_3_183171
+2024-09-18 16:43:12,049 - __main__ - INFO - anno tree {'护航头盔系带标注': {'规范系带': '图中人物的的头盔的带子扣上了，且紧贴人脸', '不规范系带': '图中人物的的头盔的带子扣上了，但是没有紧贴人脸', '未系带': '图中人物的头盔的带子未扣上', '不确定': '头盔带子被遮挡，无法确定有没有规范系带', '无效': '图中看不到头盔带子'}, 'task_comment': ''}
+2024-09-18 16:48:06,115 - __main__ - INFO - total 100, right 30, acc 30.0
+2024-09-18 16:48:06,117 - __main__ - INFO - 规范系带 was not predicted, total 25
+2024-09-18 16:48:06,117 - __main__ - INFO - 未系带 acc 0.42105263157894735 total 19
+2024-09-18 16:48:06,118 - __main__ - INFO - 不确定 acc 0.4418604651162791 total 43
+2024-09-18 16:48:06,118 - __main__ - INFO - 不规范系带 was not predicted, total 8
+2024-09-18 16:48:06,118 - __main__ - INFO - 无效 acc 0.6 total 5
+2024-09-18 16:48:06,119 - __main__ - INFO - 
+
+2024-09-18 16:48:06,119 - __main__ - INFO - Now test face_pixar_20231207_180654
+2024-09-18 16:48:06,648 - __main__ - INFO - anno tree {'原图与IA图是否匹配筛选': {'保留': '原图与AI图明显是同一个人，且没有明显变形，且帽子、眼镜、发型、头上的饰品都保持一致', '眼睛': '原图中的人眼睛闭合或者只睁开了一点点', '剔除': '生成的AI图与原图在眼镜、帽子、眼睛睁闭状态上不一致，如原图有眼镜/帽子但生成的图没有眼镜/帽子，原图睁着眼镜但AI图闭着眼睛，反之亦然；原图有2个或以上的人导致生成图有多余的头发；原图没有眼镜但AI图脸上有眼镜的痕迹；原图与AI图发型不一致，如原图是短发但AI图是长发；'}, 'task_comment': '所给图是两张图片的拼接图，其中左边是原图，右边是根据原图使用AI生成的图片，判断原图与AI图是否匹配'}
+2024-09-18 16:52:52,624 - __main__ - INFO - total 100, right 31, acc 31.0
+2024-09-18 16:52:52,631 - __main__ - INFO - 保留 acc 0.21176470588235294 total 85
+2024-09-18 16:52:52,631 - __main__ - INFO - 剔除 acc 0.9285714285714286 total 14
+2024-09-18 16:52:52,632 - __main__ - INFO - 眼睛 was not predicted, total 1
+2024-09-18 16:52:52,632 - __main__ - INFO - 
+
+2024-09-18 16:52:52,632 - __main__ - INFO - Now test gun_knife_detec_co_1_179790
+2024-09-18 16:52:53,264 - __main__ - INFO - anno tree {'枪刀分类': {'label-0_normal': '图中没有枪支刀具', 'label-1_gun': '图中有枪', 'label-2_knife': '图中有刀具'}, 'task_comment': ''}
+2024-09-18 16:54:28,807 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 16:54:32,390 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 16:54:35,740 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 16:56:15,943 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 16:56:18,792 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 16:56:22,221 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 16:56:40,547 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 16:56:43,795 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 16:56:46,772 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 16:57:06,825 - __main__ - INFO - total 100, right 84, acc 84.0
+2024-09-18 16:57:06,830 - __main__ - INFO - label-1_gun acc 0.9696969696969697 total 66
+2024-09-18 16:57:06,832 - __main__ - INFO - label-0_normal acc 0.5483870967741935 total 31
+2024-09-18 16:57:06,835 - __main__ - INFO - label-2_knife acc 1.0 total 3
+2024-09-18 16:57:06,837 - __main__ - INFO - 
+
+2024-09-18 16:57:06,840 - __main__ - INFO - Now test secure_xjj_compensate_1206_180420
+2024-09-18 16:57:07,400 - __main__ - INFO - anno tree {'小姐姐筛选': {'明显是小姐姐': '图中有年轻漂亮的小姐姐，且人物占比图片面积大于1/10', '明显不是小姐姐': '图中包含男性或小孩或年纪较大（大于40岁）的女性', '其他': '不易判断是小姐姐或者不是小姐姐的图片'}, 'task_comment': ''}
+2024-09-18 17:02:03,062 - __main__ - INFO - total 100, right 44, acc 44.0
+2024-09-18 17:02:03,065 - __main__ - INFO - 明显是小姐姐 acc 0.5714285714285714 total 21
+2024-09-18 17:02:03,066 - __main__ - INFO - 其他 acc 0.38571428571428573 total 70
+2024-09-18 17:02:03,066 - __main__ - INFO - 明显不是小姐姐 acc 0.5555555555555556 total 9
+2024-09-18 17:02:03,067 - __main__ - INFO - 
+
+2024-09-18 17:02:03,067 - __main__ - INFO - Now test face_pattern_mask_2023_179911
+2024-09-18 17:02:03,986 - __main__ - INFO - anno tree {'带图案口罩标注': {'图案口罩': '图中人物戴着带有人嘴或者动物嘴或者卡通嘴或其他图案的口罩', '其他': '图中没有口罩或者戴着的口罩没有图案'}, 'task_comment': ''}
+2024-09-18 17:03:54,939 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 17:03:58,064 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 17:04:02,884 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 17:05:28,051 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 17:05:31,210 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 17:05:34,361 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 17:06:45,281 - __main__ - INFO - total 100, right 97, acc 97.0
+2024-09-18 17:06:45,290 - __main__ - INFO - 其他 acc 0.9797979797979798 total 99
+2024-09-18 17:06:45,290 - __main__ - INFO - 图案口罩 was not predicted, total 1
+2024-09-18 17:06:45,291 - __main__ - INFO - 
+
+2024-09-18 17:06:45,291 - __main__ - INFO - Now test draw_240_round2_eyeball_crop_filter_outer_179901
+2024-09-18 17:06:46,660 - __main__ - INFO - anno tree {'虹膜关键点预标筛选': {'合格': '预标点大小和位置合格，有眼部遮挡的情况下大致判断虹膜的位置', '不合格': '有如下情况之一：预标点的大小比实际虹膜大或者小、预标点的位置与实际虹膜的位置有偏移', '无效': '图片模糊或者质量差，无法判断预标点是否准确'}, 'task_comment': '所给图中有人脸和预标的虹膜关键点，判断预标注的关键点位置是否正确'}
+2024-09-18 17:09:17,956 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 17:09:21,216 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 17:09:24,450 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 17:11:04,042 - __main__ - INFO - total 95, right 0, acc 0.0
+2024-09-18 17:11:04,043 - __main__ - INFO - 合格 was not predicted, total 92
+2024-09-18 17:11:04,044 - __main__ - INFO - 不合格 was not predicted, total 3
+2024-09-18 17:11:04,044 - __main__ - INFO - 
+
+2024-09-18 17:11:04,044 - __main__ - INFO - Now test image_app_tagreversenormal_1018_1025_5k_179059
+2024-09-18 17:11:04,493 - __main__ - INFO - anno tree {'逆行分类标注': {'辅路-左侧有人行便道': '', '辅路-右侧有人行便道': '', '辅路-无人行便道顺行': '', '辅路-无人行便道逆行': '', '主路-左侧有人行便道': '', '主路-右侧有人行便道': '', '主路-两侧有人行便道': '', '主路-无人行便道': '', '路口-左侧有人行便道': '', '路口-右侧有人行便道': '', '路口-前方有人行便道': '', '路口-无人行便道': '', '人行便道-逆行': '', '人行便道-正常': '', '人行便道-不确定': '', '非道路': '', '场景未知': '', '无效': ''}, 'task_comment': ''}
+2024-09-18 17:16:17,127 - __main__ - INFO - total 100, right 18, acc 18.0
+2024-09-18 17:16:17,132 - __main__ - INFO - 无效 acc 1.0 total 2
+2024-09-18 17:16:17,133 - __main__ - INFO - 人行便道-逆行 was not predicted, total 3
+2024-09-18 17:16:17,133 - __main__ - INFO - 主路-无人行便道 acc 0.13333333333333333 total 45
+2024-09-18 17:16:17,134 - __main__ - INFO - 辅路-无人行便道逆行 was not predicted, total 1
+2024-09-18 17:16:17,134 - __main__ - INFO - 路口-前方有人行便道 acc 1.0 total 2
+2024-09-18 17:16:17,135 - __main__ - INFO - 主路-左侧有人行便道 was not predicted, total 5
+2024-09-18 17:16:17,135 - __main__ - INFO - 路口-左侧有人行便道 acc 0.5 total 4
+2024-09-18 17:16:17,135 - __main__ - INFO - 人行便道-正常 acc 0.3333333333333333 total 3
+2024-09-18 17:16:17,136 - __main__ - INFO - 场景未知 acc 0.14285714285714285 total 7
+2024-09-18 17:16:17,136 - __main__ - INFO - 路口-无人行便道 acc 0.2857142857142857 total 7
+2024-09-18 17:16:17,137 - __main__ - INFO - 辅路-左侧有人行便道 acc 0.3333333333333333 total 3
+2024-09-18 17:16:17,137 - __main__ - INFO - 辅路-无人行便道顺行 was not predicted, total 14
+2024-09-18 17:16:17,138 - __main__ - INFO - 人行便道-不确定 was not predicted, total 1
+2024-09-18 17:16:17,139 - __main__ - INFO - 非道路 was not predicted, total 2
+2024-09-18 17:16:17,139 - __main__ - INFO - 辅路-右侧有人行便道 acc 1.0 total 1
+2024-09-18 17:16:17,139 - __main__ - INFO - 
+
+2024-09-18 17:16:17,140 - __main__ - INFO - Now test secure_logop2p3_cls_v3_diedai_crop_178502
+2024-09-18 17:16:17,652 - __main__ - INFO - anno tree {'logo分类': {'新氧': '', '彩贝壳': '', '悦美': '', '花生日记app': '', '好省app': '', '每日一淘': '', '1688网': '', '亚马逊网': '', '粉象生活': '', '淘特app': '', '京喜': '', '什么值得买': '', '途牛': '', '赶集网': '', 'boss直聘': '', '得物': '', '百度地图': '', '识货': '', '点淘': '', '懂车帝': '', '苏宁易购': '', '自如': '', '途家': '', '木鸟': '', '微视': '', '百度糯米': '', '爱彼迎/airbnb': '', '马蜂窝': '', '微信': '', '果多美': '', '多多买菜': '', '美味不用等': '', 'CCTV': '', '链家': '', '叮咚买菜': '', '小猪短租': '', '每日优鲜': '', '正常': '不包含以上所有品牌的logo'}, 'task_comment': '判断图中是否有指定品牌的logo'}
+2024-09-18 17:17:32,230 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 17:17:35,211 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 17:17:38,156 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 17:19:41,129 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 17:19:44,079 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 17:19:47,055 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 17:20:34,931 - __main__ - INFO - total 100, right 63, acc 63.0
+2024-09-18 17:20:34,940 - __main__ - INFO - 正常 acc 0.6210526315789474 total 95
+2024-09-18 17:20:34,940 - __main__ - INFO - CCTV acc 1.0 total 3
+2024-09-18 17:20:34,941 - __main__ - INFO - 微信 acc 1.0 total 1
+2024-09-18 17:20:34,941 - __main__ - INFO - 微视 was not predicted, total 1
+2024-09-18 17:20:34,942 - __main__ - INFO - 
+
+2024-09-18 17:20:34,942 - __main__ - INFO - Now test ocr_sec_txiang_contact_231128_178725
+2024-09-18 17:20:35,813 - __main__ - INFO - anno tree {'联系方式分类': {'有联系倾向，有联系方式': '图中有QQ号（一串数字）或者电话号码（一串数字）或者微信号（一串字母或者数字）或者网址', '有联系倾向，无联系方式': '图中有企鹅logo或者绿色的微信logo且有+号或者“加”字、或者图中有Q或q或V或wx字母，但是没有具体一串数字或者字母', '无联系倾向': '图中没有数字字母、或者只有单纯的logo，但不是纯色图', '无效': '图片是纯色图或者动图，没有任何信息'}, 'task_comment': ''}
+2024-09-18 17:24:39,188 - __main__ - INFO - total 100, right 79, acc 79.0
+2024-09-18 17:24:39,191 - __main__ - INFO - 无联系倾向 acc 1.0 total 23
+2024-09-18 17:24:39,192 - __main__ - INFO - 有联系倾向，有联系方式 acc 0.7236842105263158 total 76
+2024-09-18 17:24:39,193 - __main__ - INFO - 有联系倾向，无联系方式 acc 1.0 total 1
+2024-09-18 17:24:39,193 - __main__ - INFO - 
+
+2024-09-18 17:24:39,194 - __main__ - INFO - Now test ocr_sec_txiang_lowrisk_231128_178416
+2024-09-18 17:24:39,669 - __main__ - INFO - anno tree {'联系方式分类': {'有联系倾向，有联系方式': '图中有多个数字或字母', '有联系倾向，无联系方式': '图中有“+”号或者“加”字、或者图中有Q或q或V或wx字母，但是没有多个数字或者字母', '无联系倾向': '图中没有数字和字母，但不是纯色图', '无效': '图片是纯色图或者动图，没有任何信息'}, 'task_comment': ''}
+2024-09-18 17:26:47,633 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 17:26:50,470 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 17:26:53,219 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 17:28:48,341 - __main__ - INFO - total 100, right 90, acc 90.0
+2024-09-18 17:28:48,345 - __main__ - INFO - 有联系倾向，有联系方式 acc 0.8709677419354839 total 31
+2024-09-18 17:28:48,345 - __main__ - INFO - 无联系倾向 acc 0.9104477611940298 total 67
+2024-09-18 17:28:48,345 - __main__ - INFO - 无效 acc 1.0 total 1
+2024-09-18 17:28:48,346 - __main__ - INFO - 有联系倾向，无联系方式 acc 1.0 total 1
+2024-09-18 17:28:48,346 - __main__ - INFO - 
+
+2024-09-18 17:28:48,347 - __main__ - INFO - Now test secure_smoke_detection_v10_178130
+2024-09-18 17:28:48,598 - __main__ - INFO - anno tree {'香烟分类2': {'嘴上抽烟': '疑似嘴上有香烟，有长条形状的物体在嘴上都算', '手上拿烟': '疑似手拿香烟，有长条形状的物体在手上都算', '单纯香烟': '图中有香烟，但不在嘴上和手上，有长条形状的物体都算', '分不清': '无法确定是嘴上香烟还是手上香烟，或者同时在嘴上和手上的长条形状的物体', '其他': '图中没有香烟，及图中没有长条形状的物体'}, 'task_comment': ''}
+2024-09-18 17:28:58,743 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 17:29:01,539 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 17:29:04,592 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 17:30:02,691 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 17:30:05,777 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 17:30:08,833 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 17:31:03,435 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 17:31:06,527 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 17:31:09,199 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 17:31:36,430 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 17:31:39,575 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 17:31:42,535 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 17:32:29,650 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 17:32:32,684 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 17:32:35,763 - openai - INFO - error_code=content_filter error_message="The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: \r\nhttps://go.microsoft.com/fwlink/?linkid=2198766." error_param=prompt error_type=None message='OpenAI API error received' stream_error=False
+2024-09-18 17:33:31,990 - __main__ - INFO - total 100, right 60, acc 60.0
+2024-09-18 17:33:32,003 - __main__ - INFO - 分不清 acc 0.07692307692307693 total 13
+2024-09-18 17:33:32,003 - __main__ - INFO - 单纯香烟 acc 1.0 total 8
+2024-09-18 17:33:32,004 - __main__ - INFO - 嘴上抽烟 acc 0.6153846153846154 total 52
+2024-09-18 17:33:32,004 - __main__ - INFO - 手上拿烟 acc 0.7647058823529411 total 17
+2024-09-18 17:33:32,004 - __main__ - INFO - 其他 acc 0.6 total 10
+2024-09-18 17:33:32,005 - __main__ - INFO - 
+
