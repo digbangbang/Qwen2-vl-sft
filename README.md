@@ -2,7 +2,7 @@
 
 This repository contains a project I completed during my internship at meituan. 
 
-Specifically, it performs SFT on Qwen2-vl, uses internal company data, that is fine-tunes Qwen2-vl for downstream tasks (labeling). It takes about **1100 A100 GPU hours**. Therefore, I used 2 nodes, 8 A100s per node to conduct the experiment, which lasted 2 days and 20 hours.
+Specifically, it performs SFT on Qwen2-vl, uses internal company data, that is fine-tunes Qwen2-vl for downstream tasks (labeling). It takes about **1100 A100 GPU hours**. Therefore, I used 2 nodes, 8 A100s per node to conduct the experiment, which lasted 2 days and 20 hours. *Update: I tested 8 nodes, 8A100s per node, and cost 20h to complete the experiments.*
 
 *⭐️It is tested on a dedicated dataset and can outperform GPT-4o.*
 
