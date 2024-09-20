@@ -2,7 +2,7 @@
 
 This repository contains a project I completed during my internship at meituan. 
 
-Specifically, it performs SFT on Qwen2-vl, uses internal company data, that is fine-tunes Qwen2-vl for downstream tasks (labeling). It takes about **1100 A100 GPU hours**. Therefore, I used 2 nodes, 8 A100s per node to conduct the experiment, which lasted 2 days and 20 hours. *Update: I tested 8 nodes, 8A100s per node, and cost 20h to complete the experiments.*
+Specifically, it performs SFT on Qwen2-vl, uses internal company data, that is fine-tunes Qwen2-vl for downstream tasks (labeling). It takes about **1100 A100 GPU hours**. Therefore, I used 2 nodes, 8 A100s per node to conduct the experiment, which lasted 2 days and 20 hours. ***Update: I tested 8 nodes, 8A100s per node, and cost 20h to complete the experiments.***
 
 *⭐️It is tested on a dedicated dataset and can outperform GPT-4o.*
 
@@ -19,6 +19,10 @@ Specifically, it performs SFT on Qwen2-vl, uses internal company data, that is f
 | Qweb2-vl-full(2000)          | 55.4                           | 2.2                   | 57.6                          | 67.8                          | 80                            | 62.5                                  | 93.4                                  | 90.4                                  | 82.8                        | 88.2                        | 30.8                                       | 16.6                      | 10.2                       | 66.4                          | 99.2                      | 5.21                                             | 35.2                                         | 98.2                                     | 19.4                                       | 73.4                                       | 14.2                                        |
 | Qweb2-vl-full(3000)          | 62.0                           | 92.4                  | 46.2                          | 67.8                          | 80.6                          | 62.5                                  | 91.8                                  | 83.8                                  | 83.8                        | 88                          | 31.8                                       | 16.4                      | 62.6                       | 71.6                          | 99.2                      | 5.21                                             | 23.8                                         | 98                                        | 19                                         | 50.6                                       | 30                                          |
 | Qweb2-vl-full(3370)          | 64.9                           | 97.6                  | 44                            | 67.8                          | 80.8                          | 62.5                                  | 92.4                                  | 84.6                                  | 84.6                        | 89.2                        | 60.8                                       | 16                        | 70.4                       | 71                            | 99.2                      | 16.9                                             | 26.2                                         | 98.2                                     | 20.8                                       | 56                                         | 31                                          |
+
+With shuffling the training data and more nodes, the new experiments results are as follows(less steps due to mode nodes, about 4 times reduction):
+
+
 
 Thanks the codes from LLaMA-Factory [1].
 
